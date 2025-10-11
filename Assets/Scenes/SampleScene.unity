@@ -152,6 +152,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad0f4f3df1458ae45bad4a8656c2c415, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerControl
+  moveSpeed: 8
+  visual: {fileID: 0}
+  lockUntilReached: 1
+  useWalkableCheck: 0
 --- !u!136 &200177172
 CapsuleCollider:
   m_ObjectHideFlags: 0
